@@ -1,2 +1,2 @@
 Basically, GenAI uses the Foundational models which means it can solve a coding question, rephrases the sentences, logical query etc. Previous ML models used works on single task only like prediction and classify etc. 
-When it comes to GENAI it has huge architecture and lot of parameters 
+When it comes to GENAI it has huge architecture and lot of parameters need lot of GPU for training(similarly it has whole internet data). Foundational models are LLM, Large Multi-Models. 
