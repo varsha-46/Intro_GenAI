@@ -1,2 +1,19 @@
 Basically, GenAI uses the Foundational models which means it can solve a coding question, rephrases the sentences, logical query etc. Previous ML models used works on single task only like prediction and classify etc. 
 When it comes to GENAI it has huge architecture and lot of parameters need lot of GPU for training(similarly it has whole internet data). Foundational models are LLM, Large Multi-Models. 
+When comes to builder's perspective we have to learn:
+-->Transformers Architecture
+-->Encoder-Only(BERT), Decoder-Only(GPT) and Encoder-decoder(T5).
+-->Pre Training
+-->Optimization
+-->Fine Tuning
+-->Evaluation 
+-->Deployment
+When comes to User's perspective:
+-->Building LLMs and making it use using Huggingface Transformers, Ollama, Open/Closed source API etc
+-->Prompt Engineering
+-->RAG
+-->Fine Tuning
+-->Agents
+-->LLMOps
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+LangChain
