@@ -20,5 +20,8 @@ LangChain:
 It is Open-source framework that helps in building LLM based applications. provides modular componennts and end-to-end tools that help developer to build complex AI applications such as chatbots, qna syst ems, RAG, autonomous agents etc.
 >Supports all major LLMs, simiply developing LLM based applications, integration available, opensource/free, supports all major GenAI use cases.
 
+***LangChain***
+Open-source framework for developing applications powered by LLMs. 
+
 
 
