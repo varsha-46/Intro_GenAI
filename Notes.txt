@@ -31,6 +31,9 @@ Langchain uses two models: Language model(LLMs have text as input and output and
 Prompts - Prompt is the text which we used to pass to a model and we have dynamic prompt in Langchain which we can pass empotion,query whcih will be Dynamic & reusable, Role - based and few-shot prompting to provide similar output. 
 Chains - These are the important features for a langchain, their will be prompt will pass to LLM and then to create report and it will be passed to some other process instead the langchains have some functions to do it.
 Indexs - Suppose chatGPT wont have internal data like company policies so we need to use internal pdfs or data to get the answers. Here the main components will be Doc Loader. Text spiltter,vector store, retrivors 
+Memory - These LLM model's memory is stateless which means that it wont store the context of the chat but their are some methods to include.
+Agents - Agents are the going norm which we are using the role of an agent is to link your model with other APIs as well such as weatherAPI etc
+-------------------------------------------------------------------------------------------------
 
 
 
