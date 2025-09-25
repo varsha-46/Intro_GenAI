@@ -22,6 +22,16 @@ It is Open-source framework that helps in building LLM based applications. provi
 
 ***LangChain***
 Open-source framework for developing applications powered by LLMs. 
+----------------------------------------------------------------------------------------------------------
+Components of LangChain - 6 components(Models,
+Models - core interfaces through which you interact with AI models.
+In general the size of models will be around 100gb, any single user cannot have that much gb on their system. So, companies like openai, google have deployed in their servers and using api calls for the user to make their query run on their servers.
+Suppose, if you want to use different model for different usecase previously the codes will be completely different then LangChain comes to picture. We can use one or more models in single code itself.
+Langchain uses two models: Language model(LLMs have text as input and output and use agents) and Embedding model(give text as input getting output as vectors for sematic search)
+Prompts - Prompt is the text which we used to pass to a model and we have dynamic prompt in Langchain which we can pass empotion,query whcih will be Dynamic & reusable, Role - based and few-shot prompting to provide similar output. 
+Chains - These are the important features for a langchain, their will be prompt will pass to LLM and then to create report and it will be passed to some other process instead the langchains have some functions to do it.
+Indexs - Suppose chatGPT wont have internal data like company policies so we need to use internal pdfs or data to get the answers. Here the main components will be Doc Loader. Text spiltter,vector store, retrivors 
+
 
 
 
